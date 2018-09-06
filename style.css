@@ -1,0 +1,222 @@
+body{
+    background-color: #ccf8e9;
+    height: 400px !important;
+    width: 400px !important;
+    border-radius: 100px;
+    color: #327871;
+}
+#setting{
+    background: transparent;
+    border-color:transparent;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 2%;
+    right: 2%;
+}
+
+#setting:hover{
+    color: #527b96;
+}
+
+#submit{
+    background: transparent;
+    border-color:transparent;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 85%;
+    right: 0%;
+}
+
+#submit:hover{
+    color: #388135;
+    top:83%
+}
+
+#question{
+    font-family: "Gamja Flower";
+    font-size:39px;
+    text-align: center;
+    margin-top: 0%;
+    }
+
+#facebook{
+    background: transparent;
+    border-color:transparent;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 25%;
+    left: 5%;
+}
+
+#facebook:hover{
+    top:23%;
+}
+
+#reset{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 35px;
+    position:absolute;
+    top: -2%;
+    left: 2%;
+}
+
+#youtube{
+    background: transparent;
+    border-color:transparent;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 25%;
+    left: 37.5%;
+}
+
+#youtube:hover{
+    top:23%;
+}
+
+#reddit{
+    background: transparent;
+    border-color:transparent;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 25%;
+    left: 72%;
+}
+
+#reddit:hover{
+    top:23%;
+}
+
+#netflix{
+    font-family: "Francois One";
+    background: transparent;
+    border-color:transparent;
+    font-size:40px;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 60%;
+    left: -1%;
+}
+
+#netflix:hover{
+    top:59%;
+}
+
+#url1{
+    background: transparent;
+    border-color:transparent;
+    font-size:80px;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 55%;
+    left: 40%;
+}
+
+#url2{
+    background: transparent;
+    border-color:transparent;
+    font-size:80px;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 55%;
+    left: 74%;
+}
+
+#url1:hover,#url2:hover{
+    top:53%;
+    color:green;
+}
+
+#url1text,#url2text{
+    border-color: transparent;
+    font-size:40px;
+    font-family: "Julius Sans One";
+    height: 40px;
+    width: 300px;
+    position:absolute;
+    top: 85%;
+    left: 5%;
+}
+
+#url1display:hover,#url2display:hover{
+    top: 61%;
+    color: darkred;
+}
+
+#url1display{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: "Julius Sans One";
+    font-weight: bold;
+    position:absolute;
+    transition: 0.3s ease;
+    top:63%;
+    left:35%;
+}
+
+#url2display{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: "Julius Sans One";
+    font-weight: bold;
+    position:absolute;
+    top:63%;
+    left:67%;
+}
+
+#doggo{
+    position:absolute;
+    top: 20%;
+    left: 5%;
+}
+
+#time{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 55px;
+    font-family: "Julius Sans One";
+    position:absolute;
+    top: 0%;
+    left: 22%;
+}
+
+#text{
+    font-family: "Gamja Flower";
+    font-size:35px;
+    position:absolute;
+    top: 0%;
+    left: 29%;
+}
+
+#clear{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: "Gamja Flower";
+    font-weight: bold;
+    color: #327871;
+    position:absolute;
+    transition: 0.3s ease;
+    top: 90%;
+    left: 84%;
+}
+
+#clear:hover{
+    font-size: 22px;
+    color: red;
+    top:88%;
+}
+
+#mute {
+    border-color: transparent;
+    background-color: transparent;
+    position: absolute;
+    font-size: 50px;
+    transition: 0.3s ease;
+    top: 72%;
+    left: 0%;
+}
+
+.material-icons.md-36 { font-size: 30px; }
