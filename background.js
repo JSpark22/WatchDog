@@ -8,10 +8,11 @@
 /**
  * Initiates the program when the extension is first installed.
  */
+var intervalId;
 chrome.runtime.onInstalled.addListener(()=>{
     localStorage.setItem("elapsedTime",0);
     localStorage.setItem("mute","true");
-    setInterval(()=> isFocused(),1000);
+    intervalId = setInterval(()=> isFocused(),1000);
 });
 
 /**
@@ -20,6 +21,10 @@ chrome.runtime.onInstalled.addListener(()=>{
 chrome.runtime.onStartup.addListener(()=>{
     localStorage.setItem("elapsedTime",0);
     localStorage.setItem("mute","true");
+    setInterval(()=> isFocused(),1000);
+});
+
+chrome.management.onEnabled.addListener(()=>{
     setInterval(()=> isFocused(),1000);
 });
 

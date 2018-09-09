@@ -1,6 +1,6 @@
 {
   "name": "WatchDog",
-  "version": "1.0",
+  "version": "1.11",
   "description": "WatchDog is the perfect productivity tool for all dog-lovers (and everyone else!)",
   "author": "James Park",
 
@@ -9,7 +9,8 @@
     "tabs",
     "background",
     "activeTab",
-    "audio"
+    "audio",
+    "management"
   ],
   "background": {
     "scripts": [
