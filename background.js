@@ -10,7 +10,7 @@
  */
 chrome.runtime.onInstalled.addListener(()=>{
     localStorage.setItem("elapsedTime",0);
-    localStorage.setItem("mute","true");
+    localStorage.setItem("mute","false");
     // Clears all existing intervals.
      for (var i = 1; i < 99999; i++)
              window.clearInterval(i);
@@ -22,9 +22,10 @@ chrome.runtime.onInstalled.addListener(()=>{
  */
 chrome.runtime.onStartup.addListener(()=>{
     localStorage.setItem("elapsedTime",0);
-    localStorage.setItem("mute","true");
-     for (var i = 1; i < 99999; i++)
-             window.clearInterval(i);
+    localStorage.setItem("mute","false");
+     for (var i = 1; i < 99999; i++){
+       window.clearInterval(i);
+     }
     setInterval(()=> isFocused(),1000);
 });
 
